@@ -8,7 +8,9 @@ use App\Models\Category;
 
 class Contact extends Model
 {
-       protected $fillable = [
+    use HasFactory;
+
+    protected $fillable = [
         'last_name',
         'first_name',
         'gender',
@@ -17,13 +19,11 @@ class Contact extends Model
         'address',
         'building',
         'category_id',
-        'category',
         'detail',
-     ];
+    ];
 
-       public function category()
+    public function category()
     {
         return $this->belongsTo(Category::class);
     }
 }
-
