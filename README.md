@@ -4,7 +4,7 @@ Contact Form（お問い合わせフォーム）
 ## 環境構築
 
 ### 1. Docker ビルド
-・git clone git@github.com:tsumika0524/contact-form.git
+・git clone git@github.com:tsumika0524/contact-form.git<br>
 ・docker-compose build
 
 ### Laravel環境構築
