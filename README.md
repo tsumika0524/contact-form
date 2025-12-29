@@ -34,4 +34,5 @@ php artisan db:seed
 ・jquery 3.7.1.min.js
 
 ######　ER図
-![ER図](docs/ER_diagram.png)
+![ER図](src/docs/ER_diagram.png)
+
