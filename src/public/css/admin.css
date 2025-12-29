@@ -1,0 +1,267 @@
+body {
+margin: 0;
+font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+background: #f7f5f3;
+color: #5c4b3b;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+/* ヘッダー高さを少し大きく */
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 110px;   /* ← 96 → 110 */
+}
+
+/* ロゴを少し大きく */
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  font-family: "Times New Roman", serif;
+  font-size: 45px;       /* ← 32 → 36 */
+  font-weight: normal;
+  letter-spacing: 1.8px;
+  color: #8b7b6b;
+}
+
+/* 右上ボタン */
+.header-right {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.header-right form {
+  margin: 0;
+}
+
+.header-btn {
+  font-size: 12px;
+  padding: 4px 10px;
+  border: 1px solid #e0d9d0;
+  color: #9c8f84;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  opacity: 0.85;
+}
+
+
+.container {
+max-width: 1100px;
+margin: 40px auto;
+}
+
+.container h2 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.search-form {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.search-form input,
+.search-form select {
+padding: 8px;
+border: 1px solid #ddd;
+}
+
+.btn {
+padding: 8px 14px;
+border: none;
+cursor: pointer;
+}
+
+.search {
+background: #7b6651;
+color: #fff;
+}
+
+.reset {
+background: #d6c9bd;
+}
+
+.export {
+margin-bottom: 10px;
+background: #e5ddd6;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+background: #fff;
+}
+
+thead {
+background: #8b7763;
+color: #fff;
+}
+
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #eee;
+}
+
+.detail {
+background: #eee;
+border: none;
+padding: 6px 10px;
+cursor: pointer;
+}
+
+.pagination {
+margin-top: 20px;
+text-align: center;
+}
+
+.pagination a {
+display: inline-block;
+padding: 6px 10px;
+margin: 0 2px;
+text-decoration: none;
+color: #8b7763;
+border: 1px solid #ddd;
+}
+
+.pagination .active {
+  background: #8b7763;
+  color: #fff;
+}
+
+
+.logout-btn:hover {
+  background: #f7f5f3;
+}
+
+.container {
+max-width: 1100px;
+margin: 40px auto;
+}
+
+.container h2 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.search-form {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.search-form input,
+.search-form select {
+padding: 8px;
+border: 1px solid #ddd;
+}
+
+.btn {
+padding: 8px 14px;
+border: none;
+cursor: pointer;
+}
+
+.search {
+background: #7b6651;
+color: #fff;
+}
+
+.reset {
+background: #d6c9bd;
+}
+
+.export {
+margin-bottom: 10px;
+background: #e5ddd6;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+background: #fff;
+}
+
+thead {
+background: #8b7763;
+color: #fff;
+}
+
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #eee;
+}
+
+.detail {
+background: #eee;
+border: none;
+padding: 6px 10px;
+cursor: pointer;
+}
+
+.pagination {
+ margin-bottom: 15px; /* テーブルとの距離を15pxに */
+ text-align: center;
+}
+
+.pagination a {
+display: inline-block;
+padding: 6px 10px;
+margin: 0 2px;
+text-decoration: none;
+color: #8b7763;
+border: 1px solid #ddd;
+}
+
+.pagination .active {
+background: #8b7763;
+color: #fff;
+}
+
+/* モーダル */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal__content {
+    background: #fff;
+    padding: 30px;
+    width: 520px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* 下に出る Laravel 標準ページネーションの矢印だけ消す */
+svg {
+  display: none;
+}

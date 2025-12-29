@@ -1,0 +1,48 @@
+/* ===== base ===== */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #fff;
+  color: #8b7b6b;
+}
+
+/* ===== thanks ===== */
+.thanks {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* message */
+.thanks__message {
+  font-size: 30px;
+  margin-bottom: 30px;
+  z-index: 2;
+  text-align: center;    /* 中央寄せ */
+  font-weight: bold;     /* ここで太字にする */
+}
+
+/* button */
+.thanks__btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #8b7b6b;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  z-index: 2;
+}
+
+/* background text */
+.thanks__bg {
+  position: absolute;
+  font-size: clamp(150px, 30vw, 300px);
+  color: rgba(0, 0, 0, 0.03);
+  font-family: "Times New Roman", serif;
+  white-space: nowrap;
+  z-index: 1;
+}

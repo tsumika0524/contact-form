@@ -1,0 +1,58 @@
+
+/* ===== header ===== */
+.header {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+/* ヘッダー高さを少し大きく */
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 110px;   /* ← 96 → 110 */
+}
+
+/* ロゴを少し大きく */
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  font-family: "Times New Roman", serif;
+  font-size: 45px;       /* ← 32 → 36 */
+  font-weight: normal;
+  letter-spacing: 1.8px;
+  color: #8b7b6b;
+}
+
+/* 右端ボタン */
+.header-right {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+/* form対策 */
+.header-right form {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* ボタン */
+.header-btn {
+  font-size: 12px;
+  padding: 4px 10px;
+  border: 1px solid #e0d9d0;
+  color: #9c8f84;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  opacity: 0.85;
+}

@@ -1,0 +1,118 @@
+/* ===== base ===== */
+body {
+  font-family:
+    "Yu Mincho",
+    "YuMincho",
+    "Hiragino Mincho ProN",
+    "Hiragino Mincho Pro",
+    "Noto Serif JP",
+    serif;
+  font-weight: 400;
+  color: #8b7b6f;
+  background-color: #fff;
+  margin: 0;
+}
+
+/* ===== main ===== */
+.confirm {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.confirm__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  margin-bottom: 40px;
+}
+
+/* ===== table ===== */
+.confirm__table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm__table {
+  width: 720px;
+  border-collapse: collapse;
+  border: 1px solid #e5e5e5;
+}
+
+.confirm__table th,
+.confirm__table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  line-height: 1.7;
+  vertical-align: top;
+}
+
+.confirm__table th {
+  width: 220px;
+  background-color: #c4b3a3;
+  color: #fff;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 32px;   /* ← ここで左寄り量を調整 */
+  padding-right: 16px;
+  vertical-align: middle;
+}
+
+.confirm__table td {
+  background-color: #fff;
+  color: #8b7b6f;
+}
+
+/* お問い合わせ内容 */
+.confirm__content {
+  line-height: 1.8;
+}
+
+/* ===== buttons ===== */
+/* ===== actions ===== */
+.confirm__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin-top: 48px;
+}
+
+/* ===== submit button ===== */
+.btn-submit {
+  width: 140px;
+  height: 40px;
+  background-color: #8b7b6f;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  font-family: inherit;
+  cursor: pointer;
+  padding-left: 0.2em; /* 文字中央ズレ防止 */
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+/* ===== edit link ===== */
+/* 修正リンク（見本完全一致） */
+.btn-edit {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 14px;
+  color: #8b7b6f;
+  text-decoration: underline;
+  letter-spacing: 0;
+
+  cursor: pointer;
+}
+
+

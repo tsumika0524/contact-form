@@ -1,0 +1,83 @@
+/* ===== base ===== */
+body.auth-page {
+  background: #f3eee8;
+  font-family: "Times New Roman", serif;
+  color: #8b7b6b;
+}
+
+body.auth-page main {
+  padding-top: 55px;
+}
+
+/* ===== main ===== */
+.login {
+  text-align: center;
+}
+
+/* title */
+.title {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 45px;
+}
+
+/* ===== card ===== */
+.login-card {
+  width: 420px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 6px;
+  padding: 45px 50px 40px;
+}
+
+/* ===== form ===== */
+.form-group {
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 38px;
+  border: none;
+  background: #f7f7f7;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #8b7b6b;
+}
+
+.form-group input::placeholder {
+  color: #c9c1b8;
+}
+
+/* ===== button ===== */
+.btn-area {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-login {
+  width: 110px;
+  height: 38px;
+  border: none;
+  background: #8b7b6b;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  opacity: 0.85;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 6px;
+}
